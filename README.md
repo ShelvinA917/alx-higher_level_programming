@@ -1,2 +1,2 @@
 # alx-higher_level_programming
-Pyton
+ALX python course sprint 2.
