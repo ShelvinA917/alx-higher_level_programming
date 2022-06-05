@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for a in range(ord('a'), ord('z') + 1):
-    if chr(a) != 'e' and chr(a) != 'q':
-        print("{:c}".format(a), end='')
+for i in range(ord('a'), ord('z') + 1):
+    if not(chr(i) == 'q' or chr(i) == 'e'):
+        print("{}".format(chr(i)), end="")
